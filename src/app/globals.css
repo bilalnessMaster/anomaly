@@ -9,8 +9,8 @@ form[dir="rtl"] textarea {
   direction: rtl;
   text-align: right;
 }
-
 @theme inline {
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
