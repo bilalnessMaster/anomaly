@@ -16,17 +16,26 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 import { K2D } from "next/font/google"
+import { Textarea } from "./ui/textarea"
 
 
 export const Row = ({ city }: { city: string }) => {
   return (
     <TableRow className="h-16 border-b border-neutral-200">
-
       {
         Titles.slice(0, 1).map((_, i) => (
           <TableCell key={i} className="first:border-l  border-r border-neutral-200">
             <div className="w-full flex justify-center ">
-              <Check />
+                <Textarea placeholder="اضف ملاحضة"  dir="rtl"/>  
+            </div>
+          </TableCell>
+        ))
+      } 
+      {
+        Titles.slice(0, 1).map((_, i) => (
+          <TableCell key={i} className="first:border-l  border-r border-neutral-200">
+            <div className="w-full flex justify-center ">
+            <Check />
             </div>
           </TableCell>
         ))

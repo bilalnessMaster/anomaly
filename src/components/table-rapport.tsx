@@ -15,7 +15,6 @@ export default function RapportTable() {
 
   return (
     <Table id="myTable">
-      <TableCaption>بيانات جميع خاصة فقط ب دوزاني.</TableCaption>
       <TableHeader>
         <TableRow>
           {

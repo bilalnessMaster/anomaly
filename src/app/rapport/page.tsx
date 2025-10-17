@@ -13,8 +13,8 @@ const Page = () => {
         <Image
           src="/logo.jpeg"
           alt="logo pic"
-          width={100}
-          height={100}
+          width={150}
+          height={150}
         />
         <div>
           <h1 className="font-medium text-lg"> تقرير يومي لمراقبة المحلات</h1>
